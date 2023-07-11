@@ -245,7 +245,7 @@ footer .copyright {
 .customer-testimonial-container {
 	padding: 80px;
 	text-align: center;
-	background-color: rgba(167, 0, 200, 0.15); 
+	background-color: rgba(167, 0, 200, 0.10); 
 }
 
 .customer-testimonial-container > .title {
@@ -261,7 +261,7 @@ footer .copyright {
 }
 
 .customer-testimonial-container .apostrophe {
-	color: rgba(255, 10, 160, 1.0);
+	color: rgba(255, 10, 160, 0.80);
 	font-size: 30px;
 }
 
@@ -269,7 +269,7 @@ footer .copyright {
 	font-size: 30px;
 	position: relative;
 	top: 30px;
-	color: rgba(229, 10, 160, 1.0)
+	color: rgba(229, 10, 160, 0.80)
 }
 
 .right-align .name {
