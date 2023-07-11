@@ -52,8 +52,9 @@
 .banner-container {
 	display: flex;
 	justify-content: center;
+	padding-top: 10vh;
 	align-items: center;
-	height: 100vh;
+	height: auto;
 	background-color: rgba(229, 84, 115, 0.10);
 }
 
@@ -191,11 +192,18 @@
 
 /* Latest deals form */
 .latest-deals-form {
+	display: flex;
+	justify-content: center;
 	position: relative;
 	top: 40px;
 }
 
+.latest-deals-form > .btn {
+	display: block;
+}
+
 .input-box {
+	display: block;
 	background-color: white;	
 	color: grey;
 	border-radius: 8px;
@@ -212,13 +220,84 @@ footer {
 	background-color: #111010;
 	color: white;
 	text-align: center;
-	padding: 200px;
+	padding: 144px;
+}
+
+.shop-name {
+	font-size: 54px;	
+}
+
+.shop-name span {
+	color: #E55473;
 }
 
 footer .subtitle {
+	width: 600px;
+	margin: 18px auto;
 	color: #FFFFFF90
 }
 
 footer .copyright {
 	color: #FFFFFF40;
+}
+
+/* Customer testimonials style */
+.customer-testimonial-container {
+	padding: 80px;
+	text-align: center;
+	background-color: rgba(167, 0, 200, 0.15); 
+}
+
+.customer-testimonial-container > .title {
+	font-size: 60px;
+}
+
+.customer-testimonial-container  p {
+	font-size: 20px;
+	width: 800px;
+	margin: 70px auto;
+	line-height: 30px;
+	position: relative;
+}
+
+.customer-testimonial-container .apostrophe {
+	color: rgba(255, 10, 160, 1.0);
+	font-size: 30px;
+}
+
+.name {
+	font-size: 30px;
+	position: relative;
+	top: 30px;
+	color: rgba(229, 10, 160, 1.0)
+}
+
+.right-align .name {
+	display: block;
+	top: 10px;
+	right: 50px;
+}
+
+.customer-testimonial-container .right-align {
+	text-align: right;
+	margin-right: 0;
+}
+
+.customer-testimonial-container .left-align {
+	text-align: left;
+	margin-left: 0;
+}
+
+.testimonials {
+	padding: 30px 100px;
+}
+
+.title {
+	display: flex;	
+	justify-content: center;
+	gap: 25px;
+}
+
+.title > img {
+	width: 80px;
 }
