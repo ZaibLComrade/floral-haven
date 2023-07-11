@@ -136,8 +136,12 @@
 }
 
 /* Instagram style */
+.instagram-container {
+	margin-top: 120px;
+}
+
 .instagram-text {
-	margin: 120px;
+	margin-bottom: 40px;
 	text-align: center;
 }
 
@@ -150,21 +154,31 @@
 
 
 /* Latest deal styles */
-.latest-deals {
-
-}
-
 .latest-deals-container {
-
+	background-image: url('assets/rectangle9.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 8px;
+	margin: 128px 260px; 
+	text-align: center;
+	padding: 128px;
 }
 
-.latest-deals-text {
-
+/* Latest deals form */
+.latest-deals-form {
+	position: relative;
+	top: 40px;
 }
 
-.input-container {
-
+.input-box {
+	background-color: white;	
+	color: grey;
+	border-radius: 8px;
+	background: white;
+	width: 700px;
+	padding: 20px 40px;
+	font-size: 20px;
+	font-weight: 700;
+	border: none;
+	margin-right: 16px;
 }
-
-/* latest deals text style */
-
