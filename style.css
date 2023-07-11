@@ -182,3 +182,28 @@
 	border: none;
 	margin-right: 16px;
 }
+
+footer {
+	background-color: #111010;
+	color: white;
+	text-align: center;
+	padding: 128px;
+}
+
+.shop-name {
+	font-size: 54px;
+}
+
+.shop-name span {
+	color: #E55473;
+}
+
+footer .subtitle {
+	margin: 30px auto;
+	width: 600px;
+	color: #FFFFFF90
+}
+
+footer .copyright {
+	color: #FFFFFF40;
+}
