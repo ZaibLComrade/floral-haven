@@ -82,24 +82,49 @@
 	text-align: center;
 }
 
-.featured-flowers-container {
-	display: flex;
-	gap: 24px;
-	align-items: center;
-	justify-content: center;
+.featured-headline > .subtitle {
+	width: 600px;
+	margin: 10px auto;
 }
 
 /* Featured Section Boxes Style */
-.flower-box {
-	width: 464px;
-	height: 540px;
-	border-radius: 300px 300px 0px 0px;
-	padding-top: 115px;
+.featured-flowers-container {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	gap: 24px;
 	text-align: center;
 }
 
-#box1 {
+.img-container {
+	border-radius: 300px 300px 0px 0px;
+	width: 464px;
+	height: 538px;
+	position: relative;
+}
 
+.img-container > img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.flower-box > p {
+	margin-top: 32px;
+	color: #272727;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 35px;
+	text-decoration: underline;
+}
+
+#box2 > img {
+	bottom: 50px;
+}
+
+#box1 {
 	background: rgba(167, 33, 98, 0.15);
 }
 
@@ -187,20 +212,10 @@ footer {
 	background-color: #111010;
 	color: white;
 	text-align: center;
-	padding: 128px;
-}
-
-.shop-name {
-	font-size: 54px;
-}
-
-.shop-name span {
-	color: #E55473;
+	padding: 200px;
 }
 
 footer .subtitle {
-	margin: 30px auto;
-	width: 600px;
 	color: #FFFFFF90
 }
 
