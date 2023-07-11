@@ -172,6 +172,7 @@
 }
 
 .instagram-images-container {
+	margin: 0px 120px;
 	display: flex;
 	justify-content: center;
 	gap: 24px;
