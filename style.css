@@ -6,14 +6,31 @@
 }
 
 /* Global Class */
+.link {
+	color: #E55473;
+}
+
+.link:hover {
+	color: #FF347e;
+}
+
 .subtitle {
 	color: rgba(39, 39, 39, 0.85);
-	font-family: Lato;
 	font-size: 18px;
-	font-style: normal;
 	font-weight: 400;
 	line-height: 30px;
 	margin: 32px 0px;
+}
+
+.title {
+	font-size: 40px;	
+	color: #272727;
+	font-weight: 700;
+}
+
+.center-text {
+	width: 600px;
+	margin: 15px auto 0px auto;
 }
 
 .btn {
@@ -57,19 +74,12 @@
 }
 
 /* Featured section style */
-
 .featured-container {
 	margin: 100px;
 }
 
 .featured-headline {
 	text-align: center;
-}
-
-.featured-title {
-	color: #272727;
-	font-size: 40px;
-	font-weight: 800;
 }
 
 .featured-flowers-container {
@@ -121,16 +131,40 @@
 }
 
 /* Hot deal text style */
-.sale-title {
-	font-size: 40px;	
-	color: #272727;
-	font-weight: 700;
-}
-
 .styled-word {
 	color: #E55473;
 }
 
 /* Instagram style */
+.instagram-text {
+	margin: 120px;
+	text-align: center;
+}
 
-/* Modified previous class properties */
+.instagram-images-container {
+	display: flex;
+	justify-content: center;
+	gap: 24px;
+}
+
+
+
+/* Latest deal styles */
+.latest-deals {
+
+}
+
+.latest-deals-container {
+
+}
+
+.latest-deals-text {
+
+}
+
+.input-container {
+
+}
+
+/* latest deals text style */
+
