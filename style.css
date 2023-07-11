@@ -1,1 +1,59 @@
-css
+/* Universal ruleset */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+/* Global Class */
+.btn {
+	border-radius: 8px;
+	background: #E55473;
+	padding: 20px 40px;
+	font-size: 20px;
+	color: white;
+	font-weight: 700;
+	border: 2px solid #E55473;
+}
+
+.btn:hover {
+	color: #E55473; 
+	background-color: transparent
+}
+
+/* Unique Class */
+.banner-container {
+	display: flex;
+	justify-content: space-between;
+	height: 101.5vh;
+	background-color: rgba(229, 84, 115, 0.10);
+}
+
+.banner-description {
+	width: 800px;
+	margin: 200px;
+}
+
+.banner-title {
+	color: #272727;
+	font-family: Lato;
+	font-size: 60px;
+	font-weight: 800;
+}
+
+.subtitle {
+	color: rgba(39, 39, 39, 0.60);
+	font-family: Lato;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	margin: 32px 0px;
+}
+
+.banner-image {
+	height: 100vh;
+
+}
+
+/* Modified previous class properties */
