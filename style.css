@@ -24,14 +24,19 @@
 /* Unique Class */
 .banner-container {
 	display: flex;
-	justify-content: space-between;
-	height: 101.5vh;
+	justify-content: space-around;
+	align-items: center;
+	height: 100vh;
 	background-color: rgba(229, 84, 115, 0.10);
 }
 
 .banner-description {
 	width: 800px;
 	margin: 200px;
+}
+
+.banner-image {
+	height: 800px;
 }
 
 .banner-title {
@@ -42,7 +47,7 @@
 }
 
 .subtitle {
-	color: rgba(39, 39, 39, 0.60);
+	color: rgba(39, 39, 39, 0.85);
 	font-family: Lato;
 	font-size: 18px;
 	font-style: normal;
@@ -51,9 +56,6 @@
 	margin: 32px 0px;
 }
 
-.banner-image {
-	height: 100vh;
 
-}
 
 /* Modified previous class properties */
